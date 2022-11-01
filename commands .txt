@@ -1,0 +1,91 @@
+Following Commands are for creating all the files and folders in a sequential order as mentioned.
+
+
+
+
+create a Hello folder
+
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop$ mkdir Hello
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop$ cd Hello
+
+
+
+
+
+Into Hello folder two folder named "five" and "one" created
+
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello$ mkdir five
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello$ mkdir one
+
+
+
+
+In folder five - a folder named "six" and a text file name "c.txt" created
+
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello$ cd five
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/five$ mkdir six
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/five$ touch c.txt
+
+
+
+
+Inside folder six created a folder name seven
+
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/five$ cd six
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/five/six$ mkdir seven
+
+
+
+
+
+created a file name error with extension log
+
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/five/six$ cd seven
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/five/six/seven$ touch error.log
+
+
+
+
+basically cd .. commands are for going back/previous directory to access them
+
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/five/six/seven$ cd ..
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/five/six$ cd ..
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/five$ cd ..
+
+
+
+
+Started with folder name "one" - create a folder "two" and two text file as name "a","b"
+
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello$ cd one
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/one$ mkdir two
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/one$ touch a.text
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/one$ touch b.text
+
+
+
+
+
+In folder name two created other folder name three and a text file
+
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/one$ cd two
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/one/two$ mkdir three
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/one/two$ touch d.txt
+
+
+
+
+Folder name three and a text file name "e" created inside folder four
+
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/one/two$ cd three
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/one/two/three$ touch e.txt
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/one/two/three$ mkdir four
+
+
+
+
+
+A file name access with extension log created inside folder four
+
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/one/two/three$ cd four
+abhishek@abhishek-Lenovo-ideapad-330-15AST:~/Desktop/Hello/one/two/three/four$ touch access.log
